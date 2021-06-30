@@ -1,3 +1,5 @@
+USE tienda;
+
 -- CONSULTES 1-20
 
 SELECT nombre FROM producto;
@@ -37,10 +39,10 @@ SELECT p.* FROM producto p JOIN fabricante f ON f.codigo = p.codigo_fabricante
 WHERE f.nombre IN ("Asus", "Hewlett-Packard", "Seagate");
 SELECT p.nombre, p.precio FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre LIKE "%e";
 SELECT p.nombre, p.precio FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre LIKE "%w%";
-SELECT p.nombre, p.precio, f.nombre FROM producto p LEFT JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE precio >= 180 ORDER BY precio DESC, p.nombre ASC
+SELECT p.nombre, p.precio, f.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE precio >= 180 ORDER BY precio DESC, p.nombre ASC
 SELECT DISTINCT f.* FROM fabricante f JOIN producto p ON f.codigo = p.codigo_fabricante;
 SELECT f.*, p.* FROM fabricante f LEFT JOIN producto p ON f.codigo = p.codigo_fabricante;
-SELECT f.* FROM fabricante f LEFT OUTER JOIN producto p ON f.codigo = p.codigo_fabricante WHERE p.codigo IS NULL;
+SELECT f.* FROM fabricante f LEFT JOIN producto p ON f.codigo = p.codigo_fabricante WHERE p.codigo IS NULL;
 
 -- SUBCONSULTAS 36-41
 
