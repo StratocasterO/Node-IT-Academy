@@ -2,22 +2,39 @@
 
 Repo for the NodeJS itinerary of [IT Academy](https://www.barcelonactiva.cat/es/itacademy).
 
-#### Sprint 1
+___________________________
 
-Node basics: JavaScript, Node Packaage Manager _npm_
 
-#### Sprint 2
+#### Sprint 1: Node basics
 
-Databases: MySQL, MongoDB, design and queries
+JavaScript, functions, classes, promises, async-await, Node Package Manager _npm_.
 
-#### Sprint 3
+<small>_15 days (42 hours)_</small>
 
-Design patterns
+#### Sprint 2: Databases
 
-#### Sprint 4
+MySQL, MongoDB, design and queries.
 
-REST Api, authentication with JSON Web Token JWT, Object-Relational Mapping _OGM_
+<small>_15 days (42 hours)_</small>
 
-#### Sprint 5
+#### Sprint 3: Design patterns
 
-Sockets.io for real time server response
+Callback hell, singleton, observer, middleware, decorator, publisher & subscriber.
+
+<small>_15 days (42 hours)_</small>
+
+#### Sprint 4: Rest API
+
+REST Api, JSON Web Token, Object-Relational Mapping _ORM_ (Sequelize, Mongoose).
+
+<small>_21 days (100 hours)_</small>
+
+#### Sprint 5: Sockets
+
+Sockets.io for real time server response.
+
+<small>_21 days (100 hours)_</small>
+
+___________________________
+
+**Total:** 88 days (352 hours)
