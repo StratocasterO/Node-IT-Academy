@@ -23,14 +23,14 @@ SELECT d.* FROM alumno_se_matricula_asignatura asma LEFT JOIN asignatura a ON as
 
 -- CONSULTES RESUM 1-11
 
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
-SELECT
+SELECT COUNT(*) FROM persona p WHERE p.tipo = "alumno";
+SELECT COUNT(*) FROM persona p WHERE p.tipo = "alumno" AND YEAR(p.fecha_nacimiento) = 1999;
+SELECT d.nombre AS departament, COUNT(*) AS num_professors FROM departamento d JOIN profesor p ON d.id = p.id_departamento GROUP BY d.id;
+SELECT d.nombre AS departament, COUNT(p.id_profesor) AS num_professors FROM departamento d LEFT JOIN profesor p ON d.id = p.id_departamento GROUP BY d.id;
+SELECT g.nombre AS grau, COUNT(*) AS num_assignatures FROM grado g JOIN asignatura a ON a.id_grado = g.id GROUP BY g.id;
+SELECT g.nombre AS grau, COUNT(*) AS num_assignatures FROM grado g JOIN asignatura a ON a.id_grado = g.id GROUP BY g.id HAVING num_assignatures > 40;
+SELECT g.nombre AS grau, a.tipo AS tipus, SUM(a.creditos) AS credits FROM grado g JOIN asignatura a ON a.id_grado = g.id GROUP BY a.tipo, g.id;
+SELECT c.anyo_inicio, COUNT(distinct id_alumno) AS alumnes FROM curso_escolar c JOIN alumno_se_matricula_asignatura a ON a.id_curso_escolar = c.id GROUP BY c.id;
+SELECT p.id, p.nombre, p.apellido1, p.apellido2, COUNT(a.id) AS assignatures FROM persona p LEFT JOIN asignatura a ON p.id = a.id_profesor GROUP BY p.id;
+SELECT * FROM persona WHERE tipo = 'alumno' ORDER BY fecha_nacimiento LIMIT 1;
+SELECT p.* FROM profesor pr LEFT JOIN asignatura a ON pr.id_profesor = a.id_profesor JOIN persona p ON pr.id_profesor = p.id WHERE a.id IS NULL;
