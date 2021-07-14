@@ -25,7 +25,7 @@ SELECT d.* FROM alumno_se_matricula_asignatura asma LEFT JOIN asignatura a ON as
 
 SELECT COUNT(*) FROM persona p WHERE p.tipo = "alumno";
 SELECT COUNT(*) FROM persona p WHERE p.tipo = "alumno" AND YEAR(p.fecha_nacimiento) = 1999;
-SELECT d.nombre AS departament, COUNT(*) AS num_professors FROM departamento d JOIN profesor p ON d.id = p.id_departamento GROUP BY d.id;
+SELECT d.nombre AS departament, COUNT(*) AS num_professors FROM departamento d JOIN profesor p ON d.id = p.id_departamento GROUP BY d.id ORDER BY num_professors;
 SELECT d.nombre AS departament, COUNT(p.id_profesor) AS num_professors FROM departamento d LEFT JOIN profesor p ON d.id = p.id_departamento GROUP BY d.id;
 SELECT g.nombre AS grau, COUNT(*) AS num_assignatures FROM grado g JOIN asignatura a ON a.id_grado = g.id GROUP BY g.id;
 SELECT g.nombre AS grau, COUNT(*) AS num_assignatures FROM grado g JOIN asignatura a ON a.id_grado = g.id GROUP BY g.id HAVING num_assignatures > 40;
