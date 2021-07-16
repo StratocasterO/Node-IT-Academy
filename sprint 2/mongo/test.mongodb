@@ -1,0 +1,2 @@
+use("restaurants");
+db.restaurants.find({name: {$regex: /^Mad/}}, {restaurant_id: true, name: true, borough: true, "address.coord": true, cuisine: true}).pretty().count();
