@@ -47,9 +47,9 @@ SELECT f.* FROM fabricante f LEFT JOIN producto p ON f.codigo = p.codigo_fabrica
 -- SUBCONSULTAS 36-41
 
 SELECT * FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre="Lenovo");
-SELECT * FROM producto WHERE precio = (SELECT max(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre="Lenovo"));
+SELECT * FROM producto WHERE precio = (SELECT MAX(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre="Lenovo"));
 SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre="Lenovo" ORDER BY precio DESC LIMIT 1;
 SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre="Hewlett-Packard" ORDER BY precio ASC LIMIT 1;
-SELECT * FROM producto WHERE precio >= (SELECT max(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre="Lenovo"));
+SELECT * FROM producto WHERE precio >= (SELECT MAX(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre="Lenovo"));
 SELECT p.* FROM producto p JOIN fabricante f ON f.codigo = p.codigo_fabricante
-WHERE f.nombre = "Asus" AND precio > (SELECT avg(precio) FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = "Asus");
+WHERE f.nombre = "Asus" AND precio > (SELECT AVG(precio) FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre = "Asus");
