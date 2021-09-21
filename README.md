@@ -2,12 +2,12 @@
 
 Repo for the NodeJS itinerary of [IT Academy](https://www.barcelonactiva.cat/es/itacademy).
 
-___________________________
 
+___________________________
 
 #### Sprint 1: Node basics
 
-JavaScript, functions, classes, promises, async-await, Node Package Manager _npm_.
+JavaScript, functions, classes, promises, async-await, Node Package Manager _npm_, testing.
 
 <small>_15 days (42 hours)_</small>
 

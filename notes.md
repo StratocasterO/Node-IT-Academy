@@ -8,12 +8,14 @@ ___________________________
 #### Sprint 1: Node basics
 
 - Aviso: nada de HTML
+- Aviso: centrarse en las entregas (se pierden en el material)
 - Cambiar "mostrar por pantalla" por "mostrar por consola"
 
 
 #### Sprint 2: Databases
 
 - MySQL estructura: 
+    - afegir algun tutorial que ensenyi a fer l'script sense el workbench (com els ultims 5 min d'[aquest](https://www.youtube.com/watch?v=YkrtjGD9IHU))
     - afegir data a les ulleres (posar lo de les queries a dalt perquè no ho veuen... avís "llegiu els enunciats sencers")
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula
 - MySQL queries: 28 i 29 typo "Packardy" falta un espacio
