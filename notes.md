@@ -5,23 +5,24 @@ Millores i correccions de l'itinerari de NodeJS de la [IT Academy](https://www.b
 
 ___________________________
 
+
 #### Sprint 1: Node basics
 
 - Aviso: nada de HTML
 - Aviso: centrarse en las entregas (se pierden en el material)
 - Cambiar "mostrar por pantalla" por "mostrar por consola"
-
+- Node Utils: 
+    - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
+    - Separar ejercicios nivel 2
 
 #### Sprint 2: Databases
 
 - MySQL estructura: 
     - afegir algun tutorial que ensenyi a fer l'script sense el workbench (com els ultims 5 min d'[aquest](https://www.youtube.com/watch?v=YkrtjGD9IHU))
-    - afegir data a les ulleres (posar lo de les queries a dalt perquè no ho veuen... avís "llegiu els enunciats sencers")
+    - avís "llegiu els enunciats sencers" (no veuen les queries de prova del final)
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula
-- MySQL queries: 28 i 29 typo "Packardy" falta un espacio
 - Mongo estructura:
-    - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula
-- Mongo queries: 18 i 19 typo "Bronxor" falta un espacio, 21 peix és "seafood"
+    - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una col·lecció
 
 
 #### Sprint 3: Design patterns
@@ -35,11 +36,21 @@ ___________________________
 - Dice game: 
     - No queda claro si el ranking es la media de todos o las de cada jugador ordenadas
     - Rutas con ID o ID en el body
-    - Borrar los juegos de un jugador borra su media o se mantiene
+    - Borrar los juegos de un jugador: borra su media o se mantiene
+    - Login: dejar claro que no es cada usuario, es un admin que tiene acceso a todo
 
-- Añadir funcionalidad enviar email
+- Funcionalidad enviar email
 
 
 #### Sprint 5: Sockets
 
-- Chat: pone aplicación web y no está especificado separar front y back
+- ...
+
+
+___________________________
+
+
+#### Idees extra:
+
+- Juego estilo hundir la flota (dándoles el frontend) en sprint 4 o 5
+- Exercicis d'algorismes més complicats (ordenació, laberints, puzzles...)
