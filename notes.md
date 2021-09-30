@@ -17,12 +17,13 @@ ___________________________
 
 #### Sprint 2: Databases
 
+- Queries antes que estructura (?)
 - MySQL estructura: 
     - afegir algun tutorial que ensenyi a fer l'script sense el workbench (com els ultims 5 min d'[aquest](https://www.youtube.com/watch?v=YkrtjGD9IHU))
     - avís "llegiu els enunciats sencers" (no veuen les queries de prova del final)
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula
 - Mongo estructura:
-    - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una col·lecció
+    - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula extra
 
 
 #### Sprint 3: Design patterns
@@ -33,13 +34,14 @@ ___________________________
 
 #### Sprint 4: Rest API
 
+- API REST: 
+    - Funcionalidad enviar email
+
 - Dice game: 
     - No queda claro si el ranking es la media de todos o las de cada jugador ordenadas
-    - Rutas con ID o ID en el body
+    - Rutas con ID o ID en el body (diferencia?)
     - Borrar los juegos de un jugador: borra su media o se mantiene
     - Login: dejar claro que no es cada usuario, es un admin que tiene acceso a todo
-
-- Funcionalidad enviar email
 
 
 #### Sprint 5: Sockets
