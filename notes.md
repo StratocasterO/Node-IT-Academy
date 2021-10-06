@@ -10,7 +10,6 @@ ___________________________
 
 - Aviso: nada de HTML
 - Aviso: centrarse en las entregas (se pierden en el material)
-- Cambiar "mostrar por pantalla" por "mostrar por consola"
 - Node Utils: 
     - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
     - Separar ejercicios nivel 2
