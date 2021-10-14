@@ -8,11 +8,13 @@ ___________________________
 
 #### Sprint 1: Node basics
 
+- Exercici git: clonar, afegir, editar, branques, pull requests en un repo comú de classe
 - Aviso: nada de HTML
 - Aviso: centrarse en las entregas (se pierden en el material)
 - Node Utils: 
     - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
     - Separar ejercicios nivel 2
+
 
 #### Sprint 2: Databases
 
@@ -47,6 +49,11 @@ ___________________________
 
 - ...
 
+#### Altres
+
+- Eliminar sprints Koa i Meteor
+- Desbloquejar prova tècnica després de projecte
+
 
 ___________________________
 
@@ -55,3 +62,9 @@ ___________________________
 
 - Juego estilo hundir la flota (dándoles el frontend) en sprint 4 o 5
 - Exercicis d'algorismes més complicats (ordenació, laberints, puzzles...)
+- Temes per afegir:
+    - Yarn
+    - Prettierrc
+    - Eslintrc
+    - Swagger
+    - Docusaurus
