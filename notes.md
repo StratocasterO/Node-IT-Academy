@@ -8,9 +8,14 @@ ___________________________
 
 #### Sprint 1: Node basics
 
-- Exercici git: clonar, afegir, editar, branques, pull requests en un repo comú de classe
 - Aviso: nada de HTML
 - Aviso: centrarse en las entregas (se pierden en el material)
+- Exercici git:
+    - clonar repositori de classe
+    - crear branca amb el nom
+    - afegir document amb presentació personal
+    - editar document en el que treballem tots
+    - pull request a la branca `main`
 - Node Utils: 
     - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
     - Separar ejercicios nivel 2
@@ -60,6 +65,7 @@ ___________________________
 
 #### Idees extra:
 
+- Afegir apartat welcome al costat de l'aula virtual per posar instruccions d'inici (amb els avisos de centrar-se en les entregues, etc)
 - Juego estilo hundir la flota (dándoles el frontend) en sprint 4 o 5
 - Exercicis d'algorismes més complicats (ordenació, laberints, puzzles...)
 - Temes per afegir:
