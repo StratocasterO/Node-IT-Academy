@@ -11,8 +11,9 @@ ___________________________
 - Aviso inicial: nada de HTML, centrarse en las entregas (se pierden en el material)
 - Exercici git:
     - clonar repositori de classe
+    - afegeix un .gitignore
     - crear branca amb el nom
-    - afegir document amb presentació personal
+    - afegir document amb presentació personal (.txt)
     - editar document en el que treballem tots
     - pull request a la branca `main`
 - Node Utils:
