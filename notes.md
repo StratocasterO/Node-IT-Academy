@@ -8,14 +8,6 @@ ___________________________
 
 #### Sprint 1: Node basics
 
-- Aviso inicial: nada de HTML, centrarse en las entregas (se pierden en el material)
-- Exercici git:
-    - clonar repositori de classe
-    - afegeix un .gitignore
-    - crear branca amb el nom
-    - afegir document amb presentació personal (.txt)
-    - editar document en el que treballem tots
-    - pull request a la branca `main`
 - Node Utils:
     - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
     - Separar ejercicios nivel 2
@@ -69,9 +61,28 @@ ___________________________
 
 - Juego estilo hundir la flota (dándoles el frontend) en sprint 4 o 5
 - Exercicis d'algorismes més complicats (ordenació, laberints, puzzles...)
-- Temes per afegir:
+- Temes per afegir (_reunió Jonatan 30/9/2021_):
     - Yarn
     - Prettierrc
     - Eslintrc
     - Swagger
     - Docusaurus
+
+#### Canvis material itinerari (_reunió Alex 26/10/2021_):
+
+- Instruccions del curs (home):
+    - Plataformes: discords, aula virtual
+    - Organització del curs: llibres digitals i entregues
+    - Consells utils: veureu que l'itinerari está força guiat al principi i cada cop ho està menys...
+        - centrar-se en les entregues
+        - no perdre's en el material
+        - res de HTML
+        - llegir bé enunciats
+        - us de git
+        - haureu de buscar més material
+
+- Eliminar capítols dels llibres
+- Eliminar números dels llibres
+- Arreglar enllaços
+- Embedded videos
+- Posar número (exercici 1.3) a les entregues perque s'ordenin al GradeMe
