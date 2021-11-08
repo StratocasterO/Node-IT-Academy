@@ -18,7 +18,6 @@ ___________________________
 - Queries antes que estructura (?)
 - MySQL estructura:
     - afegir algun tutorial que ensenyi a fer l'script sense el workbench (com els ultims 5 min d'[aquest](https://www.youtube.com/watch?v=YkrtjGD9IHU))
-    - avís "llegiu els enunciats sencers" (no veuen les queries de prova del final)
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula
 - Mongo estructura:
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula extra
@@ -34,7 +33,7 @@ ___________________________
 
 - API REST: 
     - Funcionalidad enviar email
-    - Funcionalidad servir archivos estáticos. Imágenes, que la API devuelva una URL (sugerencia Kevin)
+    - Funcionalidad servir archivos estáticos. Imágenes, que la API devuelva una URL (_sugerencia Kevin 28/10/2021_)
 
 - Dice game: 
     - No queda claro si el ranking es la media de todos o las de cada jugador ordenadas
@@ -49,14 +48,10 @@ ___________________________
 
 #### Altres
 
-- Eliminar sprints Koa i Meteor
+- Eliminar sprints Koa i Meteor (?)
 - Desbloquejar prova tècnica després de projecte
-- Números entregues perquè surtin ordenades al GradeMe
-- Afegir apartat welcome al costat de l'aula virtual per posar instruccions d'inici (amb els avisos de centrar-se en les entregues, etc)
 
-
-___________________________
-
+__________________________
 
 #### Idees extra:
 
@@ -69,21 +64,8 @@ ___________________________
     - Swagger
     - Docusaurus
 
+__________________________
+
 #### Canvis material itinerari (_reunió Alex 26/10/2021_):
 
-- Instruccions del curs (home):
-    - Plataformes: discords, aula virtual
-    - Organització del curs: llibres digitals i entregues
-    - Consells utils: veureu que l'itinerari está força guiat al principi i cada cop ho està menys...
-        - centrar-se en les entregues
-        - no perdre's en el material
-        - res de HTML
-        - llegir bé enunciats
-        - us de git
-        - haureu de buscar més material
-
-- Eliminar capítols dels llibres
-- Eliminar números dels llibres
-- Arreglar enllaços
-- Embedded videos
-- Posar número (exercici 1.3) a les entregues perque s'ordenin al GradeMe
+- Arreglar format
