@@ -264,14 +264,14 @@ db.restaurants.find({"address.street": {$type: 10}});
 db.restaurants.find({"address.street": "" })
 db.restaurants.find({"address.street": {$exists: false}});  
 
-/*3.7. Escriu una consulta quin seleccionar� tots el documents en la col.lecci� de restaurants on el valor del camp coord �s 
+/*3.7. Escriu una consulta quin seleccionar tots el documents en la col.lecció de restaurants on el valor del camp coord �s 
 Double*/
 /*Resultado 3772 documentos*/ 
 db.restaurants.find({"address.coord": { $type: "double" } })
 db.restaurants.find({"address.coord": {$type: 1}});
 
-/*3.8. Escriu una consulta quin seleccionar� el restaurant_id, name i grade per a aquells restaurants quins retorns 0 com a 
-resta despr�s de dividir el marcador per 7*/
+/*3.8. Escriu una consulta quin seleccionar el restaurant_id, name i grade per a aquells restaurants quins retorns 0 com a 
+resta després de dividir el marcador per 7*/
 /*Resultado 1585 documentos*/ 
 db.restaurants.find({"grades.score": {$mod: [7, 0]}}, {_id: 0, restaurant_id: 1, name: 1, grades: 1})
 db.restaurants.find({"grades.score": {$mod: [7, 0]}});
