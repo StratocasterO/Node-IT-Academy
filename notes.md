@@ -6,14 +6,14 @@ Millores i correccions de l'itinerari de NodeJS de la [IT Academy](https://www.b
 ___________________________
 
 
-#### Sprint 1: Node basics
+### Sprint 1: Node basics
 
 - Node Utils:
     - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
     - Separar ejercicios nivel 2
 
 
-#### Sprint 2: Databases
+### Sprint 2: Databases
 
 - Queries antes que estructura (?)
 - MySQL estructura:
@@ -23,13 +23,13 @@ ___________________________
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula extra
 
 
-#### Sprint 3: Design patterns
+### Sprint 3: Design patterns
 
 - Dejar claro si pueden usar librerías o no
 - Middlewares: enunciado confuso (modificación del resultado o de los números iniciales)
 
 
-#### Sprint 4: Rest API
+### Sprint 4: Rest API
 
 - API REST: 
     - Funcionalidad enviar email
@@ -42,18 +42,18 @@ ___________________________
     - Login: dejar claro que no es cada usuario, es un admin que tiene acceso a todo
 
 
-#### Sprint 5: Sockets
+### Sprint 5: Sockets
 
 - ...
 
-#### Altres
+### Altres
 
 - Eliminar sprints Koa i Meteor (?)
 - Desbloquejar prova tècnica després de projecte
 
 __________________________
 
-#### Idees extra:
+### Idees extra:
 
 - Juego estilo hundir la flota (dándoles el frontend) en sprint 4 o 5
 - Exercicis d'algorismes més complicats (ordenació, laberints, puzzles...)
@@ -66,6 +66,6 @@ __________________________
 
 __________________________
 
-#### Canvis material itinerari (_reunió Alex 26/10/2021_):
+### Canvis material itinerari (_reunió Alex 26/10/2021_):
 
 - Arreglar format
