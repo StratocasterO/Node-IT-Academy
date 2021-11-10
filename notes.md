@@ -2,16 +2,13 @@
 
 Millores i correccions de l'itinerari de NodeJS de la [IT Academy](https://www.barcelonactiva.cat/es/itacademy).
 
-
 ___________________________
-
 
 ### Sprint 1: Node basics
 
 - Node Utils:
     - CLI que pida datos al usuario y los guarde en un json (estilo `npm init`)
     - Separar ejercicios nivel 2
-
 
 ### Sprint 2: Databases
 
@@ -22,12 +19,10 @@ ___________________________
 - Mongo estructura:
     - especificar si cada parell d'ulleres es una venda/comanda o s'ha d'afegir una taula extra
 
-
 ### Sprint 3: Design patterns
 
 - Dejar claro si pueden usar librerías o no
 - Middlewares: enunciado confuso (modificación del resultado o de los números iniciales)
-
 
 ### Sprint 4: Rest API
 
@@ -41,15 +36,13 @@ ___________________________
     - Borrar los juegos de un jugador: borra su media o se mantiene
     - Login: dejar claro que no es cada usuario, es un admin que tiene acceso a todo
 
-
 ### Sprint 5: Sockets
 
 - ...
 
 ### Altres
 
-- Eliminar sprints Koa i Meteor (?)
-- Desbloquejar prova tècnica després de projecte
+- Eliminar sprints Koa i Meteor (passar-los a la llista d'espera de projecte)
 
 __________________________
 

@@ -4,7 +4,6 @@ Estructura del temari de l'itinerari de NodeJS de la [IT Academy](https://www.ba
 
 ___________________________
 
-
 ## Sprint 1: Node basics
 
 Llibre 1: **Entorn de desenvolupament**
@@ -23,7 +22,6 @@ Llibre 3: **Node.js**
 - Gestor de paquets NPM (1+2+3)
 - Un mòdul útil: Nodemon (5)
 
-
 ## Sprint 2: Bases de dades
 
 Llibre 1: **MySQL**
@@ -40,7 +38,6 @@ Llibre 2: **MongoDB**
 ## Sprint 3: Patterns
 
 _Res_
-
 
 ## Sprint 4: REST API
 
@@ -59,7 +56,6 @@ Libre 3: ORM i ODM
 - Introducció als ORM i ODM (amb aquest video: https://www.youtube.com/watch?v=dHQ-I7kr_SY)
 - ORM per MySQL: Sequelize
 - ODM per MongoDB: Mongoose
-
 
 ## Sprint 5: Sockets
 
