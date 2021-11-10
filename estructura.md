@@ -56,7 +56,7 @@ Libre 2: Express
 - _L'apartat 4 l'eliminem_
 
 Libre 3: ORM i ODM
-- Introducció als ORM i ODM
+- Introducció als ORM i ODM (amb aquest video: https://www.youtube.com/watch?v=dHQ-I7kr_SY)
 - ORM per MySQL: Sequelize
 - ODM per MongoDB: Mongoose
 
@@ -64,5 +64,5 @@ Libre 3: ORM i ODM
 ## Sprint 5: Sockets
 
 Llibre 1: Websockets
-- Llibreria Socket.io
-- Sockets.io amb Node.js
+- Llibreria Socket.io (1+2)
+- Sockets.io amb Node.js (3)
