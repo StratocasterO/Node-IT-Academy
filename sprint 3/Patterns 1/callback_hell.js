@@ -11,9 +11,9 @@ const outbox = join(__dirname, "outbox");
 
 const reverseText = str =>
   str
-  .split("")
-  .reverse()
-  .join("");
+    .split("")
+    .reverse()
+    .join("");
 
 // Read and reverse contents of text files in a directory
 readdir(inbox, (error, files) => {
@@ -40,14 +40,14 @@ const processDocuments = (error, files) => {
 
 const processFile = file => {
   readFile(join(inbox, file), "utf8", fileReaded);
-}
 
-const fileReaded = (error, data) => {
-  if (error) return console.log("Error: File error");
-  writeFile(join(outbox, file), reverseText(data), processError);
-}
+  const fileReaded = (error, data) => {
+    if (error) return console.log("Error: File error");
+    writeFile(join(outbox, file), reverseText(data), processError);
+  }
 
-const processError = error => {
-  if (error) return console.log("Error: File could not be saved!");
-  console.log(`${file} was successfully saved in the outbox!`);
+  const processError = error => {
+    if (error) return console.log("Error: File could not be saved!");
+    console.log(`${file} was successfully saved in the outbox!`);
+  }
 }
