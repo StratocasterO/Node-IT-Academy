@@ -34,7 +34,7 @@ ___________________________
 
 - API REST: 
     - Funcionalidad enviar email
-    - Funcionalidad servir archivos estáticos. Imágenes, que la API devuelva una URL (sugerencia Kevin)
+    - Funcionalidad servir archivos estáticos. Imágenes, que la API devuelva una URL (_sugerencia Kevin 29/10/2021_)
 
 - Dice game: 
     - No queda claro si el ranking es la media de todos o las de cada jugador ordenadas
