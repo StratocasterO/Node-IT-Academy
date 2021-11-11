@@ -65,11 +65,11 @@ Llibre 1: Websockets
 
 ____________________________
 
-### Nota: iframe per posar videos _embedded_
+### Nota: _iframe_ per posar videos _embedded_
 ```html
 <div class="row m-0">
     <div class="embed-responsive embed-responsive-16by9 mt-4 mb-4 col-lg-10">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TlB_eWDSMt4" allowfullscreen=""></iframe>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7E60ZttwIpY" allowfullscreen=""></iframe>
     </div>
 </div>
 ```
