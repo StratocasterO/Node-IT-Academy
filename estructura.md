@@ -62,3 +62,14 @@ Libre 3: ORM i ODM
 Llibre 1: Websockets
 - Llibreria Socket.io (1+2)
 - Sockets.io amb Node.js (3)
+
+____________________________
+
+### Nota: iframe per posar videos _embedded_
+```html
+<div class="row m-0">
+    <div class="embed-responsive embed-responsive-16by9 mt-4 mb-4 col-lg-10">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TlB_eWDSMt4" allowfullscreen=""></iframe>
+    </div>
+</div>
+```

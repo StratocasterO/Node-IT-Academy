@@ -43,6 +43,7 @@ ___________________________
 ### Altres
 
 - Eliminar sprints Koa i Meteor (passar-los a la llista d'espera de projecte)
+- Comparar [document instruccions](https://barcelonactiva.sharepoint.com/:w:/r/sites/ITAcademy2/Shared%20Documents/16%20-%20Coordinaci%C3%B3%20Pedag%C3%B2gica/Docs_Definicions/Instruccions_especialitzaci%C3%B3.docx?d=wba7fa8dbcea747e992892c9d6268ec42&csf=1&web=1&e=b5aP2v)
 
 __________________________
 
