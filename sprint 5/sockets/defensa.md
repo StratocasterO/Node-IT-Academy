@@ -1,4 +1,4 @@
-##Defensa oral ejercicio chat con Node.js y Sockets.io
+## Defensa oral ejercicio chat con Node.js y Sockets.io
 
 - ¿Por qué estructuró así el proyecto?
 - ¿Diversificó bien las capas DTO-repository-services-controller-routes? Si no, ¿por qué no? [_no hay ninguna_]
