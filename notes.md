@@ -28,7 +28,7 @@ ___________________________
 
 - API REST: 
     - Funcionalidad enviar email
-    - Funcionalidad servir archivos estáticos. Imágenes, que la API devuelva una URL (_sugerencia Kevin 28/10/2021_)
+    - Funcionalidad servir archivos estáticos. Imágenes, que la API devuelva una URL (_sugerencia Kevin 29/10/2021_)
 
 - Dice game: 
     - No queda claro si el ranking es la media de todos o las de cada jugador ordenadas
@@ -43,6 +43,7 @@ ___________________________
 ### Altres
 
 - Eliminar sprints Koa i Meteor (passar-los a la llista d'espera de projecte)
+- Comparar [document instruccions](https://barcelonactiva.sharepoint.com/:w:/r/sites/ITAcademy2/Shared%20Documents/16%20-%20Coordinaci%C3%B3%20Pedag%C3%B2gica/Docs_Definicions/Instruccions_especialitzaci%C3%B3.docx?d=wba7fa8dbcea747e992892c9d6268ec42&csf=1&web=1&e=b5aP2v)
 
 __________________________
 
