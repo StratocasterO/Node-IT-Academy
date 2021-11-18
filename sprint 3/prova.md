@@ -18,5 +18,5 @@
 - Explica com funciona un patró Singleton
 - Explica com funciona un patró Middleware
 - Explica com funciona un patró Factory Method
-- Explica com funciona un patró MVC
+- Explica com funciona un patró MVC (model-vista-controlador)
 - Què és la injecció de dependències?
