@@ -56,3 +56,24 @@ __________________________
     - Eslintrc
     - Swagger
     - Docusaurus
+
+__________________________
+
+### Avaluació IT Academy
+
+Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): millores, problemàtiques, punts forts, proposta de canvis, etc.
+
+- Funcionament IT Academy:
+    - Bon nivell al acabar (la hackathon els hi va semblar fàcil com un exercici de _sprint 3_)
+    - Nivells molt diferents al iniciar (fins i tot després de FDLP, filtre fallant?)
+    - Comunicació entre mentors de diferents especialitats: diferents metodologies? Diferents graus de guiatge?
+    - Activitats entre grups: projectes conjunts, trobades, etc durant l'especialització
+    - Projecte: més iteracions, entrar a projecte abans d'acabar especialitació (_Kevin 8/2/2022_)
+    - Cerca de feina activa (orientació currículum, cerca de feina, etc)
+    
+    <br>
+
+- Gestió:
+    - Comunicació IT Academy - mentors: què s'espera de nosaltres? Quines funcions (creació de contingut, explicacions concretes...)? Posar-ho per escrit?
+    - Desconnexió Staff - mentors (Teams - Discord)
+    - Contractació mentors, condicions, fixos però no
