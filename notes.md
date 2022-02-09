@@ -65,6 +65,7 @@ Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): mill
 
 - Funcionament IT Academy:
     - Bon nivell al acabar (la hackathon els hi va semblar fàcil com un exercici de _sprint 3_)
+    - Metodologia fa que siguin molt autònoms però no és per tothom (biaix de confirmació)
     - Nivells molt diferents al iniciar (fins i tot després de FDLP, filtre fallant?)
     - Comunicació entre mentors de diferents especialitats: diferents metodologies? Diferents graus de guiatge?
     - Activitats entre grups: projectes conjunts, trobades, etc durant l'especialització
@@ -73,7 +74,14 @@ Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): mill
     
     <br>
 
+- Alumnes:
+    - Modalitat online: tornarà? Dues vies? 
+    - Feedback alumnes sobre mentors
+
+    <br>
+
 - Gestió:
+    - Explicació funcionament, parts, itinerari dels alumnes
     - Comunicació IT Academy - mentors: què s'espera de nosaltres? Quines funcions (creació de contingut, explicacions concretes...)? Posar-ho per escrit?
     - Desconnexió Staff - mentors (Teams - Discord)
     - Contractació mentors, condicions, fixos però no
