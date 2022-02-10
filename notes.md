@@ -71,12 +71,15 @@ Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): mill
     - Activitats entre grups: projectes conjunts, trobades, etc durant l'especialització
     - Projecte: més iteracions, entrar a projecte abans d'acabar especialitació (_Kevin 8/2/2022_)
     - Cerca de feina activa (orientació currículum, cerca de feina, etc)
+    - Activitats grups: hackathon, dinàmiques de grup, xerrades
+    - Exercicis entre especialitats: exercicis combinats front-back, mini projectes
     
     <br>
 
 - Alumnes:
     - Modalitat online: tornarà? Dues vies? 
-    - Feedback alumnes sobre mentors
+    - Feedback alumnes sobre mentors (informe: desavinences amb el mentor?)
+    - Mail una mica agressiu de finalització (ocupant plaça...)
 
     <br>
 
