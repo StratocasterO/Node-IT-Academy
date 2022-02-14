@@ -68,23 +68,26 @@ Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): mill
     - Metodologia fa que siguin molt autònoms però no és per tothom (biaix de confirmació)
     - Nivells molt diferents al iniciar (fins i tot després de FDLP, filtre fallant?)
     - Comunicació entre mentors de diferents especialitats: diferents metodologies? Diferents graus de guiatge?
-    - Activitats entre grups: projectes conjunts, trobades, etc durant l'especialització
+    - Activitats entre grups: projectes conjunts, trobades, hackathon, dinàmiques de grup, xerrades, etc durant l'especialització (_missatge grup mentors 11/2/2022_)
     - Projecte: més iteracions, entrar a projecte abans d'acabar especialitació (_Kevin 8/2/2022_)
     - Cerca de feina activa (orientació currículum, cerca de feina, etc)
-    - Activitats grups: hackathon, dinàmiques de grup, xerrades
     - Exercicis entre especialitats: exercicis combinats front-back, mini projectes
+    - Reunions mentors back (_Rubén PHP 14/2/2022_)
+    - Alumnes que fan el mínim (nivell 1). Protocol? Dates? Ajuda?
     
     <br>
 
 - Alumnes:
     - Modalitat online: tornarà? Dues vies? 
-    - Feedback alumnes sobre mentors (informe: desavinences amb el mentor?)
+    - Feedback alumnes sobre mentors (informe dades: desavinences amb el mentor?)
     - Mail una mica agressiu de finalització (ocupant plaça...)
+    - Explicar en què consisteix el projecte (ho faig jo?)
+    - Dates, normes: explicar què passa si no van a temps, se'ls fa fora, s'allarguen dates, fins a quan? Posar-ho per escrit
 
     <br>
 
 - Gestió:
     - Explicació funcionament, parts, itinerari dels alumnes
-    - Comunicació IT Academy - mentors: què s'espera de nosaltres? Quines funcions (creació de contingut, explicacions concretes...)? Posar-ho per escrit?
+    - Comunicació IT Academy - mentors: què s'espera de nosaltres? Quines funcions (creació de contingut, explicacions concretes...)? Posar-ho per escrit
     - Desconnexió Staff - mentors (Teams - Discord)
     - Contractació mentors, condicions, fixos però no
