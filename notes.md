@@ -74,7 +74,8 @@ Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): mill
     - Exercicis entre especialitats: exercicis combinats front-back, mini projectes
     - Reunions mentors back (_Rubén PHP 14/2/2022_)
     - Alumnes que fan el mínim (nivell 1). Protocol? Dates? Ajuda?
-    
+    - Assistència obligatòria? I online? Les signatures serveixen d'alguna cosa? (gent que es posa online)
+
     <br>
 
 - Alumnes:
@@ -83,6 +84,7 @@ Avaluació de la IT Academy per la reunió amb la Ingrid Ros (_16/2/2022_): mill
     - Mail una mica agressiu de finalització (ocupant plaça...)
     - Explicar en què consisteix el projecte (ho faig jo?)
     - Dates, normes: explicar què passa si no van a temps, se'ls fa fora, s'allarguen dates, fins a quan? Posar-ho per escrit
+    - Canvis que no s'han avisat: eliminació pausa, eliminació online
 
     <br>
 
