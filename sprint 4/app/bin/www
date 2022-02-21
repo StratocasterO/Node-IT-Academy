@@ -88,5 +88,5 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
 
-  console.log("Server listening on http://localhost:" + port);
+  console.log(`Express server listening on port ${app.get('port')}`);
 }
