@@ -24,7 +24,8 @@
 
 ### Prova de programació
 
-```json
+#### Enunciat 1: 
+```
 Escriu una funció que retorni promeses que es resolen en un temps aleatori entre 0 i 5 segons. Executa-la 10 vegades de manera que puguis indentificar quin és l'ordre en el que s'han executat i el temps en el que s'han resolt, escrivint a un array les dues coses cada vegada que es resolgui una, de manera que a l'array contingui algo així:
 
 { num: 8, time: '515' } 
@@ -39,8 +40,9 @@ Escriu una funció que retorni promeses que es resolen en un temps aleatori entr
 { num: 3, time: '4004' }
 ```
 
-```json
-Crea un objeto Operación que represente una operación básica de una calculadora entre dos operandos (suma, resta,multiplicación, división, módulo)
+#### Enunciat 2: 
+```
+Crea un objeto Operación que represente una operación básica de una calculadora entre dos operandos (suma, resta, multiplicación, división, módulo)
 
 Ejemplo de operación: Operacion("resta",3,2)
 
@@ -49,13 +51,14 @@ Esta clase, además, deberá tener un método calcula(), que ejecute tal operaci
 Necesitamos acumular en un array 5 operaciones y ejecutarlas después en bucle mostrando el resultado por pantalla.
 ```
 
-```json
+#### Enunciat 3:
+```
 Necesitamos registrar datos de coches:
 
 - Cilindrada
 - Marca
 - Matrícula
-- Tipo combustible ("gasolina","gasoil","híbrido","eléctrico")
+- Tipo combustible (gasolina, gasoil, híbrido, eléctrico)
 - Color
 
 Crea un array con 6 coches (con los parámetros que quieras). 
@@ -67,18 +70,38 @@ Setea el color de los coches en posiciones impares a "rojo".
 Muestra la marca de los coches que tienen combustible de tipo "gasolina".
 ```
 
-```json
+#### Enunciat 4:
+```
 Necessitem enregistrar informació de jugadors de basket: 
 
 - Nom
 - Edat
 - Alçada
 - Pes
-- Posició (Base,Escolta,Aler,Aler-Pivot,Pivot)
+- Posició (Base, Escolta, Aler, Aler-Pivot, Pivot)
 
 Enregistrarem informació d'un conjunt de jugadors (8 en total).
 
 Mostra el nom i l'alçada dels jugadors que pasen dels 2 metres d'alçada.
 
 Mostra el nom i l'edad dels jugadors que tenen menys de 21 anys.
+```
+
+#### Enunciat 5:
+```
+Necesitamos registrar datos de Pokémon:
+
+- Número
+- Nombre
+- Nivel
+- Tipo (fuego, agua, planta, eléctrico y tierra)
+- Ataques: array de objetos {nombre: impactrueno, potencia: 120}
+
+Registramos un equipo de 6 Pokémon.
+
+Mostrar el nombre de los pokémon tipo eléctrico.
+
+Mostrar el listado de ataques de cada Pokémon.
+
+Subir 2 niveles a los Pokémon de tipo agua.
 ```
