@@ -4,8 +4,6 @@ Estructura del temari de l'itinerari de NodeJS de la [IT Academy](https://www.ba
 
 ___________________________
 
-<!-- TODO redo structure adding ReactJS -->
-
 ## Sprint 1: Node basics
 
 JavaScript, functions, classes, promises, async-await, Node Package Manager _npm_, testing.
@@ -19,7 +17,7 @@ JavaScript, functions, classes, promises, async-await, Node Package Manager _npm
 
 - Maquetació: HTML + CSS
 - Javascript front: DOM (querySelector, eventListeners, innerHTML, fetch API...)
-- React basics: components, props, useState i useEffect
+- React basics: components, props, useState i useEffect (rutes?)
 
 <small>_15 days_</small>
 
@@ -28,7 +26,7 @@ JavaScript, functions, classes, promises, async-await, Node Package Manager _npm
 
 MySQL, MongoDB, design and queries.
 
-✅ Eliminar un:
+❎ Eliminar un:
 - optica
 - pizzeria
 - youtube
@@ -64,3 +62,13 @@ Sockets.io for real time server response.
 ___________________________
 
 **Total:** 90 days
+
+___________________________
+
+### Notes:
+
+- Fer dos sprints en comptes d'un ❓
+    - Web dev: maquetació + JS de front
+    - React Basics
+- Mantenint els dies ho veig molt complicat (i baixarà el nivell) ❗
+- Ampliar l'especialització a 100-110 dies ❓
