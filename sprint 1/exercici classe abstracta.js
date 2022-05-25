@@ -21,10 +21,10 @@ try {
 // Funció generadora d'objectes (amb prototips):
 const crearAnimal = (name) => {
     // Crea la instància
-    const animal = Object.create(Animal.prototype, { constructor: { value: Animal } });
+    const animal = Object.create(Animal.prototype);
     // Fixa la propietat
     animal.name = name
-
+    // Retorna l'objecte
     return animal
 }
 
