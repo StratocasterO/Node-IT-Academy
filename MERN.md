@@ -50,7 +50,7 @@ Dev teams.
 
 REST Api, JSON Web Token, Object-Relational Mapping _ORM_ (Sequelize, Mongoose).
 
-<small>_21 days_</small>
+<small>_20 days_</small>
 
 
 ## Sprint 6: Sockets
@@ -63,4 +63,4 @@ Sockets.io for real time server response.
 
 ___________________________
 
-**Total:** 88 days
+**Total:** 90 days
