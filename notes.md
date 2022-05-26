@@ -54,8 +54,8 @@ __________________________
     - Yarn
     - Prettierrc
     - Eslintrc
-    - Swagger
-    - Docusaurus
+    - Swagger (per estandarditzar i provar APIs)
+    - Docusaurus (per documentació)
 
 __________________________
 

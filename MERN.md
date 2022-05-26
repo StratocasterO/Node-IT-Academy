@@ -15,9 +15,9 @@ JavaScript, functions, classes, promises, async-await, Node Package Manager _npm
 
 ## Sprint 2: React
 
-- Maquetació: HTML + CSS
-- Javascript front: DOM (querySelector, eventListeners, innerHTML, fetch API...)
-- React basics: components, props, useState i useEffect (rutes?)
+- Maquetació: HTML + CSS **2 tasques**
+- Javascript front: DOM (querySelector, eventListeners, innerHTML, fetch API...) **2 tasques**
+- React basics: components, props, useState i useEffect (rutes?) **2 tasques**
 
 <small>_15 days_</small>
 
@@ -67,8 +67,8 @@ ___________________________
 
 ### Notes:
 
-- Fer dos sprints en comptes d'un ❓
-    - Web dev: maquetació + JS de front
-    - React Basics
+- Fer dos sprints de front en comptes d'un ❓
+    - Web dev: maquetació + JS de front **4 tasques**
+    - React Basics **2 tasques**
 - Mantenint els dies ho veig molt complicat (i baixarà el nivell) ❗
 - Ampliar l'especialització a 100-110 dies ❓
