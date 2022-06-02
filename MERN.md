@@ -4,71 +4,84 @@ Estructura del temari de l'itinerari de NodeJS de la [IT Academy](https://www.ba
 
 ___________________________
 
-## Sprint 1: Node basics
 
-JavaScript, functions, classes, promises, async-await, Node Package Manager _npm_, testing.
+## Sprint 1: Maquetació
 
-✅ Simplificar testing
+- Maquetació: HTML + CSS
+- Javascript front: DOM (querySelector, eventListeners, innerHTML, fetch API...)
 
-<small>_15 days_</small>
+**Dues tasques:** maquetació 1 i 2
+
+<small>_10 days_</small>
 
 
-## Sprint 2: React
+## Sprint 2: Node basics
 
-- Maquetació: HTML + CSS **2 tasques**
-- Javascript front: DOM (querySelector, eventListeners, innerHTML, fetch API...) **2 tasques**
-- React basics: components, props, useState i useEffect (rutes?) **2 tasques**
+JavaScript, functions, classes, promises, async-await, Node Package Manager _npm_.
 
-<small>_15 days_</small>
+**5 tasques:** eliminar testing aquí, la resta igual
+
+<small>_10 days_</small>
 
 
 ## Sprint 3: Databases
 
 MySQL, MongoDB, design and queries.
 
-❎ Eliminar un:
 - optica
 - pizzeria
+
+❎ Eliminar un:
 - youtube
 - spotify
+
+**4 tasques:** sense canvis
 
 <small>_10 days_</small>
 
 
 ## Sprint 4: Design patterns
 
-Callback hell, singleton, observer, middleware, decorator, publisher & subscriber.
+Callback hell, singleton, observer, middleware, decorator, publisher & subscriber. Dev teams.
 
-Dev teams.
+**3 tasques:** dues de patrons i dev teams
 
 <small>_15 days_</small>
 
 
-## Sprint 5: Rest API
+## Sprint 5: React
 
-REST Api, JSON Web Token, Object-Relational Mapping _ORM_ (Sequelize, Mongoose).
+React basics: components, props, useState i useEffect (rutes?). Testing de front (funció validació de formulari) 
+
+**2 tasques:** bàsic (components i props) i avançat (useState, useEffect, testing de funcions)
+
+<small>_15 days_</small>
+
+
+## Sprint 6: Rest API
+
+REST Api, JSON Web Token, Object-Relational Mapping _ORM_ (Sequelize, Mongoose). Testing de endpoints (nivell 2 o 3 de la primera tasca)
+
+**2 tasques:** API REST (amb testing) i joc de daus (afegir front?)
 
 <small>_20 days_</small>
 
 
-## Sprint 6: Sockets
+## Sprint 7: Sockets
 
 Sockets.io for real time server response.
 
-✅ Reduït 6 dies perque ja no han d'aprendre front
+**1 tasca:** web xat (React + Node + base de dades)
 
-<small>_15 days_</small>
+<small>_20 days_</small>
 
 ___________________________
 
-**Total:** 90 days
+**Total:** 100 days
 
 ___________________________
 
 ### Notes:
 
-- Fer dos sprints de front en comptes d'un ❓
-    - Web dev: maquetació + JS de front **4 tasques**
-    - React Basics **2 tasques**
-- Mantenint els dies ho veig molt complicat (i baixarà el nivell) ❗
-- Ampliar l'especialització a 100-110 dies ❓
+- Falta acabar de definir quins exercicis agafo de React
+- Enllaços testing endpoints: [1](https://www.freecodecamp.org/news/end-point-testing/) i [2](https://rapidapi.com/blog/api-testing/)
