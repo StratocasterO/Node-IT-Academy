@@ -51,9 +51,9 @@ Callback hell, singleton, observer, middleware, decorator, publisher & subscribe
 
 ## Sprint 5: React
 
-React basics: components, props, useState i useEffect (rutes?). Testing de front (funció validació de formulari) 
+React basics: components, props, useState i useEffect (rutes?). Testing de front (funció validació de formulari i mock resposta API) 
 
-**2 tasques:** bàsic (components i props) i avançat (useState, useEffect, testing de funcions)
+**2 tasques:** bàsic (components i props) i avançat (useState, useEffect, testing)
 
 <small>_15 days_</small>
 
