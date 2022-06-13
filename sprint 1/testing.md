@@ -1,4 +1,4 @@
-# Canvis entrega testing
+# Canvis entrega testing 13/6/22
 
 Reescriptura de l'exercici de testing amb Jest de l'itinerari de NodeJS de la [IT Academy](https://www.barcelonactiva.cat/es/itacademy).
 
@@ -46,7 +46,11 @@ Els tests que creis han de poder executar-se per la consola amb `npm`.
 
 
 ### Objectius
-Aprendre a crear tests mitjançant la llibreria JEST.
+Aprendre a crear tests mitjançant la llibreria Jest.
+
+Aprendre quines característiques de les funcions de Javascript s'han de testejar.
+
+Aprendre l'estructura bàsica d'un projecte de Node i la seva execució i la instal·lació de les dependències necessàries.
 
 ### Durada: 
 3 dies
