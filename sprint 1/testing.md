@@ -1,16 +1,22 @@
+# Canvis entrega testing
+
+Reescriptura de l'exercici de testing amb Jest de l'itinerari de NodeJS de la [IT Academy](https://www.barcelonactiva.cat/es/itacademy).
+
+___________________________
+
 ## Descripció
-Per a aprendre a desenvolupar amb TDD (Test Driven Development) primer hem de conèixer les llibreries de testing. En els següents exercicis pots utilitzar JEST o Chai, com desitgis. Ambdues són llibreries amb utilitats per a testejar codi Javascript. Podràs trobar la documentació en jestjs.io o bé en chaijs.com
+Per a aprendre a desenvolupar amb TDD (Test Driven Development) primer hem de conèixer les llibreries de testing. En els següents exercicis usaràs Jest, una llibreria amb utilitats per testejar codi Javascript. Podràs trobar la documentació en jestjs.io.
 
-Abans de començar els següents exercicis, crea un projecte node amb la següent estructura:
+Abans de començar els següents exercicis, crea un projecte de Node amb la següent estructura:
 
-- `app`. Carpeta amb el codi a testejar
+- `app`. Carpeta amb el codi a testejar. Hauràs d'exportar les funcions i modificar-ne algunes (p.e. perquè en comptes de _console.log()_ facin _return_)
 - `__tests__`. Carpeta amb els tests
 - `.gitignore`. No oblidis aquest fitxer o pujaràs al repositori coses que no han de ser allà (mira la documentació oficial).
-- `Readme.md`. Posa aquí la descripció del projecte en format Markdown (dóna un cop d'ull a la guía oficial Markdown si tens dubtes)
+- `README.md`. Posa aquí la descripció del projecte i les instruccions d'instal·lació i arrencada en format Markdown (dóna un cop d'ull a la guía oficial Markdown si tens dubtes)
 - `package.json`. Descripció i configuració del projecte.
 - Una vegada creat el teu projecte, puja'l a Github.
 
-Els tests que creïs han de poder executar-se per la consola amb `npm` (si encara no ho coneixes, ara és el moment d'aprendre).
+Els tests que creis han de poder executar-se per la consola amb `npm`.
 
 
 ### Nivell 1
@@ -40,10 +46,10 @@ Els tests que creïs han de poder executar-se per la consola amb `npm` (si encar
 
 
 ### Objectius
-Aprendre a crear tests mitjançant les llibreries Chai i JEST.
+Aprendre a crear tests mitjançant la llibreria JEST.
 
 ### Durada: 
 3 dies
 
 ### Lliurament:
-Crea un repositori per a aquest exercici solament, amb l'estructura de projecte indicada, i envia la URL al mentor perquè el corregeixi. Tingues en compte que el mentor valorarà l'estructura de projecte correcta, asi com la pujada correcta de fitxers al repositori.
+Crea una carpeta al teu repositori de l'_sprint 1_ amb l'estructura de projecte indicada i envia la URL al mentor perquè el corregeixi. Tingues en compte que el mentor també valorarà l'estructura del projecte, així com la pujada correcta de fitxers al repositori.
