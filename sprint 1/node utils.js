@@ -156,6 +156,8 @@ async function do_gzip(input, output) {
 
 function ls() {
     const { spawn } = require("child_process");
+    // TODO falta usar el os.homeDir() per treure la direcció de la carpeta d'usuari 
+    // TODO el comando sera "dir" o "ls" en funció de si es Windows o Unix
     const ls = spawn("dir", ["C:\\users\\formacio"], { shell: true });
 
     ls.stdout.on("data", (data) => {
