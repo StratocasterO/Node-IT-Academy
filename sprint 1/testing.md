@@ -14,7 +14,8 @@ Abans de començar els següents exercicis, crea un projecte de Node amb la seg�
 - `.gitignore`. No oblidis aquest fitxer o pujaràs al repositori coses que no han de ser allà (mira la documentació oficial).
 - `README.md`. Posa aquí la descripció del projecte i les instruccions d'instal·lació i arrencada en format Markdown (dóna un cop d'ull a la guía oficial Markdown si tens dubtes)
 - `package.json`. Descripció i configuració del projecte.
-- Una vegada creat el teu projecte, puja'l a Github.
+
+Una vegada creat el teu projecte, puja'l a Github.
 
 Els tests que creis han de poder executar-se per la consola amb `npm`.
 
