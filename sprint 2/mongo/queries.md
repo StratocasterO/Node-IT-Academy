@@ -46,11 +46,11 @@
 
 24 - Escriu una consulta per trobar el restaurant_id, name, adreça i ubicació geogràfica per a aquells restaurants on el segon element del array coord conté un valor entre 42 i 52
 
-25 - Escriu una consulta per organitzar el nom dels restaurants en ordre ascendent juntament amb totes les columnes
+25 - Escriu una consulta per organitzar els restaurants per nom en ordre ascendent
 
-26 - Escriu una consulta per organitzar el nom dels restaurants en ordre descendent juntament amb totes les columnes
+26 - Escriu una consulta per organitzar els restaurants per nom en ordre descendent
 
-27 - Escriu una consulta per organitzar el nom de la cuisine en ordre ascendent i el barri en ordre descendent
+27 - Escriu una consulta per organitzar els restaurants pel nom de la cuisine en ordre ascendent i pel barri en ordre descendent
 
 28 - Escriu una consulta per saber si les direccions contenen el carrer
 
