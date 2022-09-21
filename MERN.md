@@ -30,10 +30,7 @@ MySQL, MongoDB, design and queries.
 
 - optica
 - pizzeria
-
-❎ Eliminar un:
 - youtube
-- spotify
 
 **4 tasques:** sense canvis
 
@@ -42,7 +39,7 @@ MySQL, MongoDB, design and queries.
 
 ## Sprint 4: Design patterns
 
-Callback hell, singleton, observer, middleware, decorator, publisher & subscriber. Dev teams.
+Callback hell, singleton, observer, middleware (easy version), decorator, publisher-subscriber. Dev teams.
 
 **3 tasques:** dues de patrons i dev teams
 
