@@ -1,0 +1,11 @@
+use("referencies")
+
+// TODO no funciona, dóna "products": []
+db.client.aggregate({
+  $lookup: {
+    from: 'products',
+    localField: 'products',
+    foreignField: '_id',
+    as: 'products'
+  }
+})
