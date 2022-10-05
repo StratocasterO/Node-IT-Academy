@@ -3,7 +3,7 @@ db.client.insertMany([{
     _id: ObjectId("000000000000000000000001"),
     "nom": "Omar",
     "cognom": "Olmedo",
-    address_id: ObjectId("000000000000000000000003"),
+    address: ObjectId("000000000000000000000003"),
     "orders": [{
       "date": new Date("20-08-2022"),
       "products": [ObjectId("000000000000000000000005"), ObjectId("000000000000000000000007")]
@@ -16,7 +16,7 @@ db.client.insertMany([{
     _id: ObjectId("000000000000000000000002"),
     "nom": "Cristina",
     "cognom": "Carrillo",
-    address_id: ObjectId("000000000000000000000004"),
+    address: ObjectId("000000000000000000000004"),
     "orders": [{
       "date": new Date("05-08-2022"),
       "products": [ObjectId("000000000000000000000005"), ObjectId("000000000000000000000006"), ObjectId("000000000000000000000007"), ObjectId("000000000000000000000007")]

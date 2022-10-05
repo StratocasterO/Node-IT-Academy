@@ -3,7 +3,7 @@ use("referencies")
 db.client.aggregate({
   $lookup: {
     from: "address",
-    localField: "address_id",
+    localField: "address",
     foreignField: "_id",
     as: "address"
   }
