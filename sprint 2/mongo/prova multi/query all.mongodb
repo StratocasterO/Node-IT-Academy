@@ -1,0 +1,17 @@
+use("referencies")
+
+// TODO mirar com es fa aggregate de multiples collections
+db.client.aggregate({
+  $lookup: {
+    from: 'products',
+    localField: 'orders.products',
+    foreignField: '_id',
+    as: 'products'
+  },
+  $lookup: {
+    from: 'products',
+    localField: 'orders.products',
+    foreignField: '_id',
+    as: 'products'
+  }
+})
