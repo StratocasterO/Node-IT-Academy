@@ -4,7 +4,7 @@ db.client.aggregate([
     {
         $lookup: {
             from: 'address',
-            localField: 'address_id',
+            localField: 'address',
             foreignField: '_id',
             as: 'address'
         }
@@ -14,7 +14,7 @@ db.client.aggregate([
             from: 'products',
             localField: 'orders.products',
             foreignField: '_id',
-            as: 'products'
+            as: 'orders'
         }
     }
 ])
