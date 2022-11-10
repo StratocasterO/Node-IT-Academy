@@ -1,5 +1,7 @@
 USE tienda;
+
 -- CONSULTES 1-20
+
 SELECT nombre FROM producto;
 SELECT nombre, precio FROM producto;
 SELECT * FROM producto;
@@ -20,7 +22,9 @@ SELECT * FROM fabricante LIMIT 3, 2; /* Con la palabra reservada OFFSET */ SELEC
 SELECT nombre, precio FROM producto ORDER BY precio ASC LIMIT 1;
 SELECT nombre, precio FROM producto ORDER BY precio DESC LIMIT 1;
 SELECT nombre FROM producto WHERE codigo_fabricante = 2;
+
 -- CONSULTAS MULTITABLA COMPOSICIÓN INTERNA 21-35
+
 SELECT producto.nombre, precio, fabricante.nombre FROM producto INNER JOIN fabricante ON producto.codigo_fabricante = fabricante.codigo;
 SELECT producto.nombre, precio, fabricante.nombre FROM producto INNER JOIN fabricante ON producto.codigo_fabricante = fabricante.codigo ORDER BY fabricante.nombre ASC;
 SELECT producto.codigo, producto.nombre, fabricante.codigo, fabricante.nombre FROM producto INNER JOIN fabricante ON producto.codigo_fabricante = fabricante.codigo;
@@ -36,7 +40,9 @@ SELECT p.nombre, p.precio, f.nombre FROM producto p JOIN fabricante f ON p.codig
 SELECT DISTINCT f.* FROM fabricante f JOIN producto p ON f.codigo = p.codigo_fabricante;
 SELECT f.*, p.* FROM fabricante f LEFT JOIN producto p ON f.codigo = p.codigo_fabricante;
 SELECT f.* FROM fabricante f LEFT JOIN producto p ON f.codigo = p.codigo_fabricante WHERE p.codigo IS NULL;
+
 -- SUBCONSULTAS 36-41
+
 SELECT * FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre="Lenovo");
 SELECT * FROM producto WHERE precio = (SELECT MAX(precio) FROM producto WHERE codigo_fabricante = (SELECT codigo FROM fabricante WHERE nombre = "Lenovo"));
 SELECT p.nombre FROM producto p JOIN fabricante f ON p.codigo_fabricante = f.codigo WHERE f.nombre="Lenovo" ORDER BY precio DESC LIMIT 1;
