@@ -18,7 +18,7 @@ app.use(cookieParser());
 // TODO això no ha d'existir de moment (més tard podem decidir servir arxius estàtics)
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Rutes
+// TODO Rutes s'haurien d'importar i separar-les
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
