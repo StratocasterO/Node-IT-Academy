@@ -56,8 +56,9 @@ db.restaurants.find({"grades.score": {"$gt": 90 }});
 
 /*1.9. Escriu una consulta per trobar els restaurants que tenen un score de m�s que 80 per� menys que 100*/
 /*Resultado 4 documentos)*/
+db.restaurants.find({grades : { $elemMatch:{"score":{$gt : 80 , $lt :100}}}});
 db.restaurants.find({"grades.score": {"$gt": 80, "$lt": 100}})
-db.restaurants.find({"grades.score": { $gt:80, $lt:100}});
+db.restaurants.find({"grades.score": { $gt:80, $lt:100}})
 db.restaurants.find({$and: [ {"grades.score": {$gt: 80}}, {"grades.score": {$lt: 100}}]},{"grades.score":1})
 
 /*1.10. Escriu una consulta per trobar els restaurants quins localitzen en valor de latitud menys que -95.754168*/
